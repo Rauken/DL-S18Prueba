@@ -1,0 +1,242 @@
+/*--------------------Bases--------------------*/
+
+@font-face {
+    font-family: 'proximanovaCB';
+    src: url(../fonts/Proxima-Nova-Cond-Black.otf);
+    font-stretch: condensed;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'proximanovaCBold';
+    src: url(../fonts/proxima_nova_cond_bold.ttf);
+    font-stretch: condensed;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'proximanovaCL';
+    src: url(../fonts/Proxima-Nova-Cond-Light.otf);
+    font-stretch: condensed;
+    font-weight: 100;
+}
+
+.proximanovaCB {
+    font-family: 'proximanovaCB';
+}
+
+.proximanovaCBold {
+    font-family: 'proximanovaCBold';
+}
+
+.proximanovaCL {
+    font-family: 'proximanovaCL';
+}
+
+.colors {
+    color: #CC1924, #000000, #707070, #FFFFFF;
+}
+
+
+/*--------------------etiquetas--------------------*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url("../img/sitio/pizza.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    font-family: PNBlack;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+    color: #CC1924;
+    font-family: PNBold;
+}
+
+h1 {
+    font-family: PNBold;
+    font-size: 2rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: PNLight;
+}
+
+ul {
+    display: inline;
+}
+
+
+/*--------------------Clases--------------------*/
+
+.nav-pills .nav-link {
+    background-color: #CC1924;
+    color: #FFFFFF;
+}
+
+.active {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.logo {
+    width: 325px;
+    height: auto;
+}
+
+.main {
+    background: url("../img/platos/marguerita.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+
+.mt-custom {
+    margin-top: 60vh;
+}
+
+.pics {
+    width: 100%;
+    height: 275px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.pics2 {
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+}
+
+.section-white {
+    display: inline;
+    background-color: #FFFFFF;
+}
+
+.background-white {
+    background-color: #FFFFFF;
+}
+
+.section2 {
+    background: url("../img/platos/griega.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+
+.section4 {
+    background: url("../img/platos/zuppa_di_chef.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+
+.carta {
+    width: 100%;
+    height: auto;
+}
+
+.white {
+    text-shadow: 3px 3px 2px #707070;
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #707070;
+}
+
+.large {
+    font-size: 90px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.fab {
+    width: 100px;
+    height: auto;
+}
+
+.icon {
+    font-size: 3em;
+}
+
+
+/*--------------------Nombres--------------------*/
+
+#test h2 {
+    opacity: 0;
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+}
+
+
+/*--------------------Efectos--------------------*/
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 9px 13px rgba(112, 112, 112, 1);
+    -moz-box-shadow: 0px 0px 9px 13px rgba(112, 112, 112, 1);
+    box-shadow: 0px 0px 9px 13px rgba(112, 112, 112, 1);
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #CC1924;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #CC1924;
+    }
+}

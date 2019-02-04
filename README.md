@@ -1,3 +1,40 @@
+# Segunda Prueba de Wordpress
+
+# Restorant Il fonti di modena
+
+## Datos
+ - Dirección: Av. Colón 161, Providencia 
+ - Teléfono: +56 2 2345 4653 
+
+## redes sociales: 
+ - Facebook: ilfontidimodena 
+ - twitter: @ilfontidimodena
+ - instagram: ilfontidimodena
+
+##Colores
+
+ * #CC1924
+ * #000000
+ * #707070
+ * #FFFFFF
+
+##Fuentes
+
+Proxima Nova Condensed Black
+Proxima Nova Condensed Bold
+Proxima Nova Condensed Light
+
+## Base de Datos
+ - Nombre: dl_prueba2
+ - user: root
+ - pass: root
+
+## Wordpress
+ - user: paolo
+ - pass: wYDx7)@kh*yIYnZ#4M
+
+
+
 # Prueba Temas de Wordpress - Una carta de comida online
 
 Para la siguiente prueba, revisar este documento y trabajar leyendo atentamente las siguientes instrucciones:
