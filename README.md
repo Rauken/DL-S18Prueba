@@ -20,9 +20,9 @@
 
 ##Fuentes
 
-Proxima Nova Condensed Black
-Proxima Nova Condensed Bold
-Proxima Nova Condensed Light
+- Proxima Nova Condensed Black
+- Proxima Nova Condensed Bold
+- Proxima Nova Condensed Light
 
 ## Base de Datos
  - Nombre: dl_prueba2
@@ -32,6 +32,20 @@ Proxima Nova Condensed Light
 ## Wordpress
  - user: paolo
  - pass: wYDx7)@kh*yIYnZ#4M
+
+## Base de datos online
+ ### MySql
+
+- base de datos: fev1pjer_dl_wordpress
+- user: fev1pjer_dl_user
+- pass: 5KMkf17RpRS}
+
+ ### Wordpress
+
+ -direccion: http://186.64.118.50/~fev1pjerez/
+ -user: paolo
+ -pass: awVp^Umt6wEd)SqOu9
+
 
 
 
